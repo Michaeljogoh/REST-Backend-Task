@@ -14,11 +14,11 @@
 
 ## Description
 
-A simple REST application from scratch. The application is a nodeJS server API communicating with this: https://reqres.in/. every code path is covered with tests (unit AND functional tests.
+A simple REST application from scratch. The application is a nodeJS server API communicating with this: https://reqres.in/. every code path is covered with units tests using jest.
 
 **POST /api/users**
 
-On the request store the user entry in db. After the creation, send an email and rabbit event. Both can be dummy sending (no consumer needed).
+On the request store the user entry in mongodb database. After the creation, sent an email and rabbit event with no consumer.
 
 **GET /api/user/{userId}**
 
@@ -84,3 +84,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Acknowledgments
+* [Choose an Open Source License](https://choosealicense.com)
+* [TypeScript](https://www.typescriptlang.org/docs/)
+* [Jest](https://jestjs.io/)
+* [Nest.js](https://docs.nestjs.com/ )
+* [MongoDB](https://www.mongodb.com/)
+* [RabbitMQ](https://www.rabbitmq.com/)
