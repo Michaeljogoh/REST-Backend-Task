@@ -39,6 +39,10 @@ async sendNotification(createUserDto: CreateUserDto) : Promise<{}> {
 }
 
 
+// Get notification on new user created 
+
+
+
 
 
 }
